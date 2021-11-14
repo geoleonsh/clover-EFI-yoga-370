@@ -35,3 +35,6 @@ AUDIO: Conexant CX8200(CX11170)
 # Unsupported Functions:  
 1.TouchScreen  
 2.Finger. 
+
+# Caution:
+If SSD is unsupported by MacOS,move it and check this nvmeSSD problem
