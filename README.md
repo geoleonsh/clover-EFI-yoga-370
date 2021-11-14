@@ -1,18 +1,17 @@
-# clover-EFI-yoga-370
-clover EFI for lenovo yoga370 laptop
-
+# Clover EFI for lenovo yoga370 laptop
 #Test on MacOS 11.6.1
 
 
-#Hardware
-CPU : intel i5-7300U
-iGPU: intel HD620
-ETHERNET: intel i219LM4
-WLAN: intel ac8265
-AUDIO: Conexant CX8200(CX11170)
+# Hardware  
+CPU : intel i5-7300U  
+iGPU: intel HD620  
+ETHERNET: intel i219LM4  
+WLAN: intel ac8265  
+AUDIO: Conexant CX8200(CX11170)  
 
 
-#Supported Functions:
+
+# Supported Functions:  
 1.Graph  
 2.Audio  
 3.CPU power  
@@ -33,6 +32,6 @@ AUDIO: Conexant CX8200(CX11170)
 18:HDMI Port  
 19:Thunderpot3(plug in before power on)  
 
-#Unsupported Functions:
-1.TouchScreen
-2.Finger
+# Unsupported Functions:  
+1.TouchScreen  
+2.Finger. 
