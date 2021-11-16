@@ -3,27 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>20D91</string>
+	<string>19H1323</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
-	<string>VoodooSMBus</string>
+	<string>RMISMBus</string>
 	<key>CFBundleIdentifier</key>
-	<string>de.leo-labs.VoodooSMBus</string>
+	<string>com.1Revenger1.RMISMBus</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>VoodooSMBus</string>
+	<string>RMISMBus</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>3.0</string>
+	<string>1.0</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>3.0</string>
+	<string>1.0</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -42,60 +42,41 @@
 	<string>12D4e</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>VoodooSMBusControllerDriver</key>
+		<key>RMISMBus</key>
 		<dict>
-			<key>Addresses</key>
-			<array>
+			<key>CFBundleIdentifier</key>
+			<string>com.1Revenger1.RMISMBus</string>
+			<key>IOClass</key>
+			<string>RMISMBus</string>
+			<key>IOProbeScore</key>
+			<integer>500</integer>
+			<key>IOPropertyMatch</key>
+			<dict>
+				<key>VoodooSMBUS Slave Device Address</key>
 				<integer>44</integer>
-				<integer>21</integer>
-			</array>
-			<key>CFBundleIdentifier</key>
-			<string>de.leo-labs.VoodooSMBus</string>
-			<key>IOClass</key>
-			<string>VoodooSMBusControllerDriver</string>
-			<key>IOPCIClassMatch</key>
-			<string>0c050000&amp;0xffffff00</string>
-			<key>IOPCIMatchComment</key>
-			<string>Intel SMBus Controller i801 (Class 0x0C05)</string>
-			<key>IOProbeScore</key>
-			<integer>400</integer>
+			</dict>
 			<key>IOProviderClass</key>
-			<string>IOPCIDevice</string>
-		</dict>
-		<key>VoodooSMBusIntelLpssI2C</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>de.leo-labs.VoodooSMBus</string>
-			<key>IOClass</key>
-			<string>VoodooSMBusIntelLpssI2C</string>
-			<key>IOPCIMatch</key>
-			<string>0x9d608086</string>
-			<key>IOPCIMatchComment</key>
-			<string>Dummy IntelLpssI2CDriver</string>
-			<key>IOProbeScore</key>
-			<integer>400</integer>
-			<key>IOProviderClass</key>
-			<string>IOPCIDevice</string>
+			<string>VoodooSMBusDeviceNub</string>
 		</dict>
 	</dict>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.11</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2019 leo-labs. All rights reserved.</string>
-	<key>OSBundleCompatibleVersion</key>
-	<string>3.0</string>
+	<string>Copyright © 2021 1Revenger1. All rights reserved.</string>
 	<key>OSBundleLibraries</key>
 	<dict>
-		<key>com.apple.iokit.IOPCIFamily</key>
-		<string>2.9</string>
+		<key>com.1Revenger1.VoodooRMI</key>
+		<string>1.0</string>
 		<key>com.apple.kpi.iokit</key>
 		<string>15</string>
 		<key>com.apple.kpi.libkern</key>
 		<string>15</string>
 		<key>com.apple.kpi.mach</key>
 		<string>15</string>
+		<key>de.leo-labs.VoodooSMBus</key>
+		<string>3.0</string>
 	</dict>
 	<key>OSBundleRequired</key>
-	<string>Root</string>
+	<string>Console</string>
 </dict>
 </plist>

@@ -130,6 +130,56 @@
 					<key>Replace</key>
 					<data>WFBSVwI=</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>BAT GBST to XBST</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>R0JTVAQ=</data>
+					<key>Replace</key>
+					<data>WEJTVAQ=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>BAT GBIF to XBIF</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>R0JJRgM=</data>
+					<key>Replace</key>
+					<data>WEJJRgM=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>BAT GBIX to XBIX</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>R0JJWAM=</data>
+					<key>Replace</key>
+					<data>WEJJWAM=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>BAT OWAK to XWAK</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>T1dBSwE=</data>
+					<key>Replace</key>
+					<data>WFdBSwE=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>BAT _L17 to XL17</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X0wxNwA=</data>
+					<key>Replace</key>
+					<data>WEwxNwA=</data>
+				</dict>
 			</array>
 			<key>ReuseFFFF</key>
 			<false/>
