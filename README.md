@@ -19,7 +19,7 @@ AUDIO: Conexant CX8200(CX11170)
 5.Card Reader  
 6.Keyboard  
 7.Battery  
-8.LED Backlight
+8.LED Backlight  
 9:Keyboard Backlight  
 10:Hotkey  
 11:LAN  
