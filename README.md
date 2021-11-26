@@ -31,10 +31,10 @@ AUDIO: Conexant CX8200(CX11170)
 17:Trackpoint  
 18:HDMI Port  
 19:Thunderpot3(plug in before power on)  
+20:Touchscreen  
 
 # Unsupported Functions:  
-1.TouchScreen  
-2.Finger. 
+1.Finger  
 
 # Caution:
 If SSD is unsupported by MacOS,move it and check this nvmeSSD problem
