@@ -38,3 +38,8 @@ AUDIO: Conexant CX8200(CX11170)
 
 # Caution:
 If SSD is unsupported by MacOS,move it and check this nvmeSSD problem
+
+# TouchPad issue:
+sometimes touchpad maybe doesn't work,key Ctrl+Alt+PrntScr  Reset and enable touchpad  
+Also, key PrntScr            Enable/Disable touchpad  
+and key Windows+PrntScr    Enable/Disable touchpad+keyboard
